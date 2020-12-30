@@ -1,0 +1,169 @@
+li{
+    list-style: none;
+}
+.product_header{
+    background: url(../image/top_banner2.png);
+}
+.product_header .container h2{
+    font-size: 42px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    padding: 150px 0 10px 0;
+}
+.product_header .container p{
+    font-size: 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    padding: 0 0 107px 0;
+}
+.product_text{
+    margin-top: 16px;
+}
+.product_text .container p{
+    font-size: 12px;
+    color: rgba(163, 163, 163, 1);
+}
+.product_text .container span:nth-child(1){
+    color: rgba(102, 102, 102, 1);
+}
+.product_text .container span:nth-child(2){
+    color: rgba(51, 51, 51, 1);
+}
+.product_text .container .product_text_title{
+    padding-top: 123px;
+}
+.product_text .container .product_text_title  h2{
+    font-size: 32px;
+    text-align: center;
+    color: rgba(112, 112, 112, 1);
+    font-weight: Bold;
+}
+.product_text .container .product_text_title h2::after{
+    width: 120px;
+    background-color: rgba(70, 142, 255, 1);
+    display: block;
+    content: ''; 
+    height: 4px;
+    margin: 20px auto;
+}
+.product_text .container .product_text_list{
+    border: 1px solid rgba(194, 201, 214, 0.22);
+    box-shadow: 5px 5px 5px 5px  rgba(194, 201, 214, 0.22);
+    padding: 61px 187px 31px 188px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.product_text .container .product_text_list .row span{
+    color: rgba(112, 112, 112, 1);
+    font-size: 16px;
+    line-height: 28px;
+}
+.product_tpList{
+    margin-top: 150px;
+}
+/* .product_tpList .container ul li{
+    display: flex;
+    justify-content: space-between;
+} */
+.product_tpList .container ul li:nth-child(n+1){
+    padding-top: 85px;
+}
+.product_tpList_left h3{
+    color: rgba(112, 112, 112, 1);
+    font-size: 24px;
+    font-weight: Bold;
+}
+.product_tpList_left p{
+    font-size: 16px;
+    color: rgba(112, 112, 112, 1);
+    padding: 0 0 61px 0;
+}
+.product_tpList_left span{
+    color: rgba(181, 181, 181, 1);
+    font-size: 16px;
+    text-align: left;
+    line-height: 36px;
+   
+}
+.product_tList{
+    background-color: rgba(245, 249, 255, 1);
+    margin-top: 200px;
+}
+.product_tList .container .product_tList_title{
+    padding: 90px 0 0 0;
+}
+.product_tList .container .product_tList_title  h2{
+    font-size: 32px;
+    text-align: center;
+    color: rgba(112, 112, 112, 1);
+    font-weight: Bold;
+}
+.product_tList_list{
+    padding: 0 0 168px 0;
+}
+.product_tList .container .product_tList_title h2::after{
+    width: 120px;
+    background-color: rgba(70, 142, 255, 1);
+    display: block;
+    content: ''; 
+    height: 4px;
+    margin: 20px auto;
+}
+.product_tList .container .product_tList_list{
+    padding-top: 60px;
+}
+.product_tList .container .product_tList_list .col-lg-3 li:nth-child(1){
+    background-color: rgba(70, 142, 255, 1);
+    margin: 0 0 20px 0;
+}
+.product_tList .container .product_tList_list .col-lg-3 li div{
+    padding: 10px 0px 9px 0px;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    text-align: center;
+}
+.product_tList .container .product_tList_list .col-lg-3 li:nth-child(n+2){
+    color: rgba(111, 167, 255, 1);   
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.pic .container .pic_title{
+    padding: 0 0 60px 0;
+}
+.pic .container .pic_title  h2{
+    font-size: 32px;
+    text-align: center;
+    color: rgba(112, 112, 112, 1);
+    font-weight: Bold;
+}
+.pic .container .pic_title h2::after{
+    width: 120px;
+    background-color: rgba(70, 142, 255, 1);
+    display: block;
+    content: ''; 
+    height: 4px;
+    margin: 20px auto;
+}
+
+.list_item p{
+    margin: 15px;
+    line-height: 28px;
+    font-size: 20px;
+    color: rgba(79, 79, 79, 1);
+}
+.list_item:nth-child(1){
+    padding-left: 155px;
+}
+.list_item:nth-child(2){
+    padding-left: 135px;
+}
+.list_item:nth-child(3){
+    padding-left: 110px;
+}
+.list_item:nth-child(4){
+    padding-left: 85px;
+}

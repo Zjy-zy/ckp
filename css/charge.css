@@ -1,0 +1,131 @@
+li{
+    list-style: none;
+}
+.charge_header{
+    background: url(../picture/charge/top_banner5.png);
+}
+.charge_header .container h2{
+    font-size: 42px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    padding: 150px 0 145px 0;
+}
+.charge_content .container p{
+    font-size: 12px;
+    color: rgba(163, 163, 163, 1);
+}
+.charge_content .container span:nth-child(1){
+    color: rgba(102, 102, 102, 1);
+}
+.charge_content .container span:nth-child(2){
+    color: rgba(51, 51, 51, 1);
+}
+.charge_content .container .charge_content_title{
+    padding-top: 123px;
+}
+.charge_content .container .charge_content_title  h2{
+    font-size: 32px;
+    text-align: center;
+    color: rgba(112, 112, 112, 1);
+    font-weight: Bold;
+}
+.charge_content .container .charge_content_title h2::after{
+    width: 120px;
+    background-color: rgba(70, 142, 255, 1);
+    display: block;
+    content: ''; 
+    height: 4px;
+    margin: 20px auto;
+}
+.charge_content_list{
+    margin-top: 65px;
+}
+
+.charge_content_list .row .col-lg-3 .text_top{
+    text-align: center;
+}
+.text{
+    width: 80%;
+    margin: auto;
+    border: 1px solid rgba(103, 162, 255, 1);
+    border-top: 3px solid rgba(103, 162, 255, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+.charge_content_list .row .col-lg-3 .text_top span{
+    padding: 0 11px 0 11px;
+    color: rgba(70, 142, 255, 1);
+    font-size: 16px;
+    line-height: 36px;
+}
+.charge_content_list .row .col-lg-3 .text_top img{
+    padding-bottom: 2px;
+}
+.text_middle{
+    padding: 44px 0 56px 0;
+}
+.text_middle div{
+    padding: 0 28px 0 28px;
+    color: rgba(68, 68, 68, 1);
+    font-size: 13px;
+    line-height: 22px;
+}
+.text_down{
+    text-align: center;
+    padding: 0 41px 24px 42px;
+}
+.text_down div{
+    padding: 8px 0 8px 0;
+    background-color: rgba(70, 142, 255, 1);
+}
+.text_down div a{
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);    
+}
+
+.col-lg-9 .col-lg-3 .row{
+    width: 100%;
+    border: 1px solid  rgba(0, 0, 0, 0.06);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.06);
+}
+.discount .size p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    padding: 14px 0 14px 0;
+}
+
+.frequency{
+    text-align: center;
+    padding: 0 0 40px 0;
+    padding-top: 55px;
+    border-bottom: 2px dotted rgba(0, 0, 0, 0.06);
+}
+.frequency .frequency_item  p{
+    color: rgba(70, 142, 255, 1);
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+}
+.frequency .frequency_item h3{
+    color: rgba(70, 142, 255, 1);
+    font-size: 36px;
+    text-align: center;
+}
+.take{
+   
+    padding: 20px 0 35px 0;
+}
+.take .take_item {
+    color: rgba(186, 186, 186, 1);
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+}
+.take .take_item i{
+    color: rgba(70, 142, 255, 1);
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+}
