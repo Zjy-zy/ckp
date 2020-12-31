@@ -16,23 +16,23 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                 {assign var="newscat" value=$categorydata->GetSubCategory(19,"article")}
+                {foreach from=$newscat item=catinfo}
                     <div class="trade_tpList_top">
+                    
                         <span><img src="{$siteurl}/templets/{$templets->directory}/picture/trade/ic_6.png" alt=""></span>
-                        <a href="#">行业资讯</a>
+                        <a href="#">{$catinfo->name}</a>
+                        
+                        
                         <div>
-                            <p>新闻资讯</p>
-                            <p>热门资讯</p>
-                            <p>排名资讯</p>
+                        {assign var="productcatlist" value=$categorydata->GetSubCategory($catinfo->cid,"article")}
+                        {foreach from=$productcatlist item=productinfo}
+                            <p>{$productinfo->name}</p>
+                            {/foreach }
                         </div>
                     </div>
-                    <div class="trade_tpList_middle">
-                        <span><img src="{$siteurl}/templets/{$templets->directory}/picture/trade/ic_5.png" alt=""></span>
-                        <a href="#">SEO快速排名</a>
-                    </div> 
-                    <div class="trade_tpList_middle">
-                        <span><img src="{$siteurl}/templets/{$templets->directory}/picture/trade/ic_5.png" alt=""></span>
-                        <a href="#">超快排软件</a>
-                    </div> 
+                     {/foreach }
+                 
                 </div>
                 <div class="col-lg-9 col-md-12 col-sm-12" >
                     <div class="trade_pList">
